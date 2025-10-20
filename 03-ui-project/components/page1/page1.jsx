@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Center from './Center'
-const page1 = () => {
+const page1 = (props) => {
   return (
     <div className='h-screen w-full '>
       <Navbar />
-      <Center />
+      <Center users={props.users} />
     </div>
   )
 }
