@@ -7,7 +7,7 @@ const Rightcard = (elem) => {
     
       <div className='h-full w-1/3 relative rounded-4xl overflow-hidden'>
          <img className='h-full w-full object-cover' src={elem.img} alt="" />
-         <Rightcardcontent tag={elem.tag} intro={elem.intro}/>
+         <Rightcardcontent tag={elem.tag} intro={elem.intro} id={elem.id}/>
        </div>
        
   )

@@ -4,7 +4,7 @@ import 'remixicon/fonts/remixicon.css'
 const Rightcardcontent = (elem) => {
   return (
     <div className='absolute h-full top-0 left-0 w-full p-8 flex flex-col justify-between '>
-            <h2 className='h-8 w-8 rounded-full flex items-center justify-center bg-amber-50 font-bold' >1</h2>
+            <h2 className='h-8 w-8 rounded-full flex items-center justify-center bg-amber-50 font-bold' >{elem.id}</h2>
             <div>
                 <p className='mb-12 text-white text leading-relaxed'>{elem.intro}</p>
                 <div className='flex justify-between'>
